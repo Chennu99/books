@@ -1,0 +1,19 @@
+GET http://localhost:3000/books/
+
+###
+POST http://localhost:3000/books/ 
+Content-Type:application/json
+
+{
+    "title":"hemu",
+    "authorId":10,
+    "rating":5,
+    "ratingCount":20000,
+    "reviewCount":50000,
+    "description":"my name is hemanth",
+    "pages":10,
+    "dateOfPublication":"may 2nd 2007",
+    "editionLanguage":"hindhi",
+    "price":400,
+    "onlineStores":"amazon,flipcart"
+}
